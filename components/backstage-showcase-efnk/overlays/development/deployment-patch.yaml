@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backstage-showcase-efnk
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/backstage-showcase-1/backstage-showcase-efnk@sha256:d11b942d86bc745794b6d52c5bc3fc5c6c47d346266c7c6451f4142d6082ed3f
+        name: container-image
+        resources: {}
+status: {}
