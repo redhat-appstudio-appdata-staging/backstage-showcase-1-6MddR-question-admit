@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: backstage-showcase-efnk
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/backstage-showcase-1/backstage-showcase-efnk@sha256:d11b942d86bc745794b6d52c5bc3fc5c6c47d346266c7c6451f4142d6082ed3f
         imagePullPolicy: Always
         name: container-image
         ports:
